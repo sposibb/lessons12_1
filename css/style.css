@@ -77,6 +77,11 @@ form {
   line-height: 18px;
   color: white;
 }
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 #textarea::placeholder {
   font-family: "Raleway";
   font-style: normal;
@@ -89,4 +94,56 @@ form {
   resize: none;
   padding-top: 16px;
   height: 250px;
+  margin-bottom: 120px;
+}
+.column_form {
+  display: flex;
+}
+.info_form {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 25px;
+  color: #262626;
+  margin-left: 121px;
+  display: flex;
+  flex-direction: column;
+}
+.bottom_p {
+  margin-top: -7px;
+  margin-bottom: 10px;
+}
+footer {
+  height: 90px;
+  background: url(/img/BG_footer.png) center center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_p1 {
+  margin-left: 180px;
+  margin-top: 35px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #b9b9b9;
+}
+.footer_p2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #b9b9b9;
+  margin-right: 180px;
+  margin-top: 36px;
+}
+.logo_img {
+  margin-top: 31px;
+}
+.love {
+  color: red;
 }
