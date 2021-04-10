@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+section {
+  background: url(/img/BG.png) center center no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 106px;
+  text-align: center;
+  color: #262626;
+  padding-top: 80px;
+  margin-bottom: 20px;
+}
+.top_p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  color: #262626;
+  margin-bottom: 45px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 558px;
+  margin-left: 180px;
+  height: 445px;
+}
+#text,
+#email,
+#number,
+#textarea {
+  margin-bottom: 15px;
+  height: 50px;
+  border: none;
+  padding-left: 22px;
+}
+#text {
+  background: #00c4c4;
+  border-left: 6px solid #355b82;
+}
+#text::placeholder {
+  color: white;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+}
+#email,
+#number,
+#textarea {
+  background: rgba(0, 196, 196, 0.5);
+}
+#email::placeholder {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: white;
+}
+#number::placeholder {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: white;
+}
+#textarea::placeholder {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: white;
+}
+#textarea {
+  resize: none;
+  padding-top: 16px;
+  height: 250px;
+}
