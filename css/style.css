@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 section {
-  background: url(/img/BG.png) center center no-repeat;
+  background: url(../img/BG.png) center center no-repeat;
   background-size: cover;
 }
 h1 {
@@ -116,7 +116,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 footer {
   height: 90px;
-  background: url(/img/BG_footer.png) center center no-repeat;
+  background: url(../img/BG_footer.png) center center no-repeat;
   background-size: cover;
   display: flex;
   justify-content: space-between;
